@@ -2613,7 +2613,7 @@ section.about{
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 80px;
+	margin-bottom: 40px;
 }
 
 .quick-overview-tab li.nav-item{
@@ -2691,12 +2691,12 @@ section.about{
 }
 
 .quick-overview-content-head{
-	margin-bottom: 45px;
+	margin-bottom: 25px;
 }
 
 .iconic-icon-list{
 	list-style: none;
-	margin-bottom: 35px;
+	margin-bottom: 30px;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -2705,7 +2705,7 @@ section.about{
 	font-weight: 400;
 	color: #616976;
 	position: relative;
-	margin-bottom: 1.25em;
+	margin-bottom: 10px;
 	display: -ms-flexbox;
     display: flex;
 }

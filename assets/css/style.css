@@ -1666,7 +1666,7 @@ p{
 	background-image: -moz-linear-gradient(40deg, #00ff42 0%, #7658f7 100%);
 	background-image: -webkit-linear-gradient(40deg, #00ff42 0%, #7658f7 100%);
 	background-image: -ms-linear-gradient(40deg, #00ff42 0%, #7658f7 100%);
-	background-image: linear-gradient(40deg, #00ff42 0%, #7658f7 100%);
+	background-image: linear-gradient(40deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -2111,7 +2111,7 @@ section.about{
 	background: -moz-linear-gradient(90deg, var(--primary-color) 0%, #7658f7 100%);
 	background: -webkit-linear-gradient(90deg, var(--primary-color) 0%, #7658f7 100%);
 	background: -ms-linear-gradient(90deg, var(--primary-color) 0%, #7658f7 100%);
-	background: linear-gradient(90deg, var(--primary-color) 0%, #7658f7 100%);
+	background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 }
 
 .counter-item{
@@ -4722,7 +4722,7 @@ footer,
 
 .f-widget{
 	position: relative;
-	margin-bottom: 40px;
+	margin-bottom: 0px;
 }
 
 .f-widget img{

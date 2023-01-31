@@ -1,8 +1,8 @@
 /*-------------------------------------------------------------------------------------
 
-	Theme Name:      Appbiz  
-    Theme URI:       http://iconictheme.com/appbiz/intro/ 
-    Author:          The_Iconic     
+	Theme Name:      One Window Property and Training Institute   
+    Theme URI:       www.onewindowpt.com 
+    Author:          EN      
     Author URI:      http://iconictheme.com
     Version:         1.7.0
 
@@ -3198,6 +3198,12 @@ section.about{
 	max-width: 100%;
 	height: auto;
 }
+.app-downlod-btn-large .btn-content-wrapper .icon-box-icon {
+	font-size: 40px;
+    color: var(--primary-color);
+    margin-bottom: 30px;
+    display: block;
+}
 
 .app-downlod-btn-large .btn-content-wrapper .btn-c-content h3{
 	font-size: 20px;
@@ -3211,7 +3217,85 @@ section.about{
 	color: #5f6368;
 	display: block;
 }
+.app-downlod-btn-midium{
+	position: relative;
+	display: block;
+	margin-bottom: 30px;
+}
+.app-downlod-btn-midium:hover{
+	background: -webkit-linear-gradient( 90deg, rgb(14,194,233) 0%, rgb(96,56,247) 100%);
+	background: -ms-linear-gradient( 90deg, rgb(14,194,233) 0%, rgb(96,56,247) 100%);
+	background: linear-gradient(90deg, rgb(14,194,233) 0%, rgb(96,56,247) 100%);
+	-webkit-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
 
+
+.app-downlod-btn-midium .btn-content-wrapper{
+	display: -ms-flexbox;
+    display: flex;
+	-ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    position: relative;
+    background-color: #ffffff;
+    z-index: 1;
+    box-shadow: 0px 2px 4px 0px rgba(0, 12, 31, 0.08);
+	-webkit-transition: .25s ease-in-out;
+	transition: .25s ease-in-out;
+}
+
+.app-downlod-btn-midium:hover .btn-content-wrapper{
+	box-shadow: 0px 2px 12px 0px rgba(0, 12, 31, 0.08);
+	-webkit-transform: translateY(-3px);
+	transform: translateY(-3px);
+}
+
+.app-downlod-btn-midium .btn-content-wrapper .btn-c-icon{
+	-ms-flex: 0 0 90px;
+    flex: 0 0 90px;
+    max-width: 90px;
+	height: 90px;
+	line-height: 90px;
+	text-align: center;
+	background-color: #f5ba2e;
+	border-radius: 3px;
+	margin-right: 30px;
+}
+
+.app-downlod-btn-midium.app-store .btn-content-wrapper .btn-c-icon{
+	background: #f96797;
+}
+
+.app-downlod-btn-midium.windows-store .btn-content-wrapper .btn-c-icon{
+	background: #2ebbf5;
+}
+
+.app-downlod-btn-midium .btn-content-wrapper .btn-c-icon img{
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+.app-downlod-btn-midium .btn-content-wrapper .icon-box-icon {
+	font-size: 40px;
+    color: var(--primary-color);
+    display: block;
+    margin-right: 10px;
+}
+
+.app-downlod-btn-midium .btn-content-wrapper .btn-c-content h3{
+	font-size: 20px;
+	font-weight: 500;
+	color: var(--text-primary);
+	margin-bottom: .25em;
+}
+
+.app-downlod-btn-midium .btn-content-wrapper .btn-c-content  span{
+	font-size: 16px;
+	color: #5f6368;
+	display: block;
+}
 .h7-get-the-app{
 	padding-top: 60px;
 	padding-bottom: 60px;
@@ -4145,7 +4229,7 @@ section.about{
 }
 
 .accordion-btn .accordion-title{
-	font-size: 20px;
+	font-size: 25px;
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 	text-align: left;

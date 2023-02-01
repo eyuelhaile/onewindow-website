@@ -342,7 +342,7 @@
 			    767: {
 			      slidesPerView: 1
 			    },
-			    992: {
+			    1540: {
 			      	slidesPerView: 2
 			    }
 			}

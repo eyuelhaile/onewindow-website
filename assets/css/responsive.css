@@ -588,6 +588,13 @@
 		transform: none!important;
 		display: none;
 	}
+	.bg-6 {
+
+	    background-image: linear-gradient(0deg, var(--primary-color) 0%, #fff 100%);
+	}
+	.btn.store-btn svg, .btn.store-btn svg path {
+		fill: #fff;
+	}
 
 	.newsletter-h2 .input-group{
 		margin-top: 40px;
@@ -616,7 +623,13 @@
 	}
 
 	.home-1-banner .banner-content .sub-title{
-		color: #fff;
+		color: #ffffff;
+		font-weight: 500;
+	}
+	.home-1-banner .btn.store-btn {
+        color: #ffffff;
+        background-color: #1B75BC;
+        border-color: #1B75BC;
 	}
 
 	.newsletter-h2-wrapper:before{
@@ -635,10 +648,11 @@
 
 	.banner-img-wrapper .banner-img-1{
 		left: -50px;
+		display: none;
 	}
 
 	.banner-img-wrapper .banner-img-2 {
-	    right: -50px;
+	    right: 0;
 	}
 
 	.banner-img-wrapper {

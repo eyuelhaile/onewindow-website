@@ -4297,6 +4297,9 @@ section.about{
 	font-weight: 400;
 	line-height: 1.625em;
 }
+.question-list {
+	list-style-type: none;
+}
 
 .accordion.accordion-style-2 .accordion-item{
 	background: transparent;
@@ -5283,4 +5286,8 @@ footer,
 @keyframes fadeIn {
   from {opacity: 0;}
   to {opacity:1 ;}
+}
+.swal2-title {
+	font-size: 20px !important;
+	text-align: left !important;
 }

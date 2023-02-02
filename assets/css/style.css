@@ -2590,9 +2590,20 @@ section.about{
 	color: #fff;
 	opacity: 0;
 	z-index: 1;
-	pointer-events: none;
 	-webkit-transition: .25s ease-in-out;
 	transition: .25s ease-in-out;
+}
+.team-member .member-img .member-about button {
+	padding-left: 10px;
+	padding-right: 10px;
+	background: transparent;
+	color: #fff;
+	outline: none;
+	border: 1px #fff solid;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-left: 20%;
+	cursor: pointer;
 }
 
 .team-member:hover .member-img .member-about{
@@ -4286,6 +4297,9 @@ section.about{
 	font-weight: 400;
 	line-height: 1.625em;
 }
+.question-list {
+	list-style-type: none;
+}
 
 .accordion.accordion-style-2 .accordion-item{
 	background: transparent;
@@ -5211,4 +5225,73 @@ footer,
 
 .scroll-top:hover{
 	line-height: 33px;
+}
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px #fff solid;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 20%;
+}
+
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 260px;
+  height: 100px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -100px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+.swal2-title {
+	font-size: 16px !important;
+	text-align: left !important;
+	color: var(--text-primary) !important;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 5px;
 }

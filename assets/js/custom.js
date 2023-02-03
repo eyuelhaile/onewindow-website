@@ -319,7 +319,58 @@
 		})
 	}
 
-
+  function whatwedoswiper(){
+		var mySwiper = new Swiper ('.whatwedo', {
+			loop: false,
+			slidesPerView: 1,
+			spaceBetween: 30,
+			speed: 700,
+			pagination: {
+			    el: '.testimonial-slider .swiper-pagination',
+			    clickable: true
+			},
+			navigation: {
+		        nextEl: '.next',
+		        prevEl: '.prev',
+		    },
+			breakpoints: {
+			    767: {
+			      slidesPerView: 1
+			    },
+			    1540: {
+			      	slidesPerView: 1
+			    }
+			}
+		})
+	}
+	var menu = ['Training', 'Property']
+	function overviewswiper(){
+		var mySwiper = new Swiper ('.overview', {
+			loop: false,
+			slidesPerView: 1,
+			spaceBetween: 30,
+			speed: 700,
+			pagination: {
+			    el: '.overview .swiper-pagination',
+			    clickable: true,
+			    renderBullet: function (index, className) {
+          return '<span class="' + className + '">' + (menu[index]) + '</span>';
+        },
+			},
+			navigation: {
+		        nextEl: '.next1',
+		        prevEl: '.prev1',
+		    },
+			breakpoints: {
+			    767: {
+			      slidesPerView: 1
+			    },
+			    1540: {
+			      	slidesPerView: 1
+			    }
+			}
+		})
+	}
 	/*=================== Testimonial slider ===================*/
 	function testimonialSlider(){
 		var mySwiper = new Swiper ('.testimonial-slider', {
@@ -552,6 +603,8 @@
     testimonialSlider3();
     partnersSlider();
     particles();
+    whatwedoswiper();
+    overviewswiper();
 
 
 })($);

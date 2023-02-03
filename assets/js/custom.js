@@ -448,15 +448,12 @@
 	/*=================== Partners slider ===================*/
 	function partnersSlider(){
 		var mySwiper = new Swiper ('.partners-slider', {
-			loop: true,
-			slidesPerView: 4,
-			slidesPerGroup: 4,
+			loop: false,
+			slidesPerView: 3,
+			slidesPerGroup: 3,
 			spaceBetween: 30,
 			loopFillGroupWithBlank: true,
 			speed: 900,
-			autoplay: {
-			    delay: 4000,
-			},
 			pagination: {
 			    el: '.partners-slider .swiper-pagination',
 			    clickable: true

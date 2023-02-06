@@ -343,6 +343,30 @@
 			}
 		})
 	}
+	function teamswiper(){
+		var mySwiper = new Swiper ('.team-slider', {
+			loop: false,
+			slidesPerView: 4,
+			spaceBetween: 30,
+			speed: 700,
+			pagination: {
+			    el: '.team-slider .swiper-pagination',
+			    clickable: true
+			},
+			navigation: {
+		        nextEl: '.swiper-button-next',
+		        prevEl: '.swiper-button-prev',
+		    },
+			breakpoints: {
+			    767: {
+			      slidesPerView: 1
+			    },
+			    1540: {
+			      	slidesPerView: 4
+			    }
+			}
+		})
+	}
 	var menu = ['Training', 'Property']
 	function overviewswiper(){
 		var mySwiper = new Swiper ('.overview', {
@@ -602,6 +626,7 @@
     particles();
     whatwedoswiper();
     overviewswiper();
+	teamswiper();
 
 
 })($);

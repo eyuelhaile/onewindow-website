@@ -489,7 +489,7 @@
 			    },
 			    767: {
 			      	slidesPerView: 3,
-					slidesPerGroup: 3
+					    slidesPerGroup: 3
 			    },
 			    992: {
 			      	slidesPerView: 3,

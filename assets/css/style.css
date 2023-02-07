@@ -351,7 +351,7 @@ p{
 }
 
 .bg-6{
-	background-image: url(../images/wave-bg7.png);
+	background-image: url(../images/wave-bg12.png);
 }
 
 .bg-7{
@@ -1328,8 +1328,8 @@ p{
 }
 
 .banner-img-wrapper .banner-img-2{
-	right: 15px;
-	bottom: 0;
+	right: 20px;
+	bottom: 120px;
 }
 
 .banner-img-wrapper.banner-7-img-wrapper .banner-img-1{

@@ -570,7 +570,7 @@ p{
 }
 
 .img-right img{
-	margin-left: auto;
+	margin-left: 0px;
 }
 
 .img-center img{

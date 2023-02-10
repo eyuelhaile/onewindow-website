@@ -23,8 +23,11 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 	<link rel="stylesheet" href="assets/css/rs-spacing.css">
 	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<script src="assets/js/jquery-2.2.3.min.js"></script>
+	<script src="assets/js/translate.js"></script>
+    <script src="assets/js/index.js"></script>
 </head>
-<body data-spy="scroll" data-target=".navbar">
+<body data-spy="scroll" data-target=".navbar" id="page-top" onload="translate('en','lng-tag')">
 	<header class="header">
 		<nav class="navbar navbar-expand-lg fixed-top" id="main-nav">
 			<div class="container">
@@ -48,18 +51,18 @@
 				<div class="collapse navbar-collapse order-3 order-lg-2" id="main-nav-collapse">
 					<ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                        	<a class="nav-link nav-link-scroll" href="index.html">Home</a>
+                        	<a class="nav-link nav-link-scroll" href="index.html" lng-tag="home"></a>
                         </li>
 						<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                About Us
+                            <a class="nav-link dropdown-toggle" href="#about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" lng-tag="about">
+                            
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="nav-item"><a class="nav-link" href="#about">Who We Are</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#feature">What We Do</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#achievment">Achievement</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#Gallery">Gallery</a></li>
-								<li class="nav-item"><a class="nav-link" href="#testimony">Testimony</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#about" lng-tag="whoweare"></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#feature" lng-tag="whatwedo"></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#achievment" lng-tag="achievment"></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#Gallery" lng-tag="gallary"></a></li>
+								<li class="nav-item"><a class="nav-link" href="#testimony" lng-tag="testimony"></a></li>
                         
                             </ul>
                         </li>
@@ -74,6 +77,10 @@
 						</li>
 						<li class="nav-item">
 							<a class="nav-link nav-link-scroll" href="#contact">Contact Us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link js-scroll-trigger lng" id="enTranslator" href="javascript:void(0);">En</a>
+							<a class="nav-link js-scroll-trigger lng" id="amTranslator" href="javascript:void(0);" style="margin-left: 5px;">Am</a>
 						</li>
 					</ul>
 				</div>
@@ -464,7 +471,7 @@
 						  			<div class="col-lg-5">
 						  				<div class="quick-overview-content xs-ml-20">
 						  					<div class="quick-overview-content-head">
-						  						<h2>Property Marketing</h2>
+						  						<h2 lng-tag="property_marketing2"></h2>
 						  						<p>We offer our clients a wide selection of prime properties through our effective sales and our user friendly website covering all property classes.</p>
 						  					</div>
 						  					<ul class="iconic-icon-list">
@@ -1410,6 +1417,8 @@
 					Swal.fire(value);	
 		}     
     </script>
+
+    
 	<script src="assets/js/jquery-2.2.3.min.js"></script>
 	<script src="assets/js/jquery.easing.min.js"></script>
 	<script src="assets/js/popper.min.js"></script>
@@ -1429,5 +1438,6 @@
 	<script src="assets/js/form-validator.js"></script>
 	<script src="assets/js/custom.js"></script>
 	<script src="assets/js/sweetalert.js"></script>
+	
 </body>
 </html>

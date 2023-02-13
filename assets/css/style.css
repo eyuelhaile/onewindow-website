@@ -5043,8 +5043,7 @@ footer,
 }
 
 .f-newsletter{
-	margin-top: 35px;
-	margin-bottom: 25px;
+	
 }
 
 .f-newsletter .input-group{
@@ -5052,7 +5051,7 @@ footer,
 	max-width: 100%;
 	position: relative;
 	border-radius: 3px;
-	border: 1px solid #2b2f41;
+	border: 1px solid var(--primary-color);
 	padding: 10px 0;
 }
 
@@ -5070,7 +5069,7 @@ footer,
 .f-newsletter .input-group-btn button{
 	display: block;
 	height: 100%;
-	background-color: transparent;
+	background-color: var(--primary-color);
 	border: none;
 	box-shadow: none;
 	color: #fff;
@@ -5084,7 +5083,7 @@ footer,
 }
 
 .f-newsletter .input-group-btn button:hover{
-	color: var(--primary-color);
+	color: #fff
 }
 
 .f-newsletter .input-group .form-control::-webkit-input-placeholder{

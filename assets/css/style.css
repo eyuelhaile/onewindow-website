@@ -719,6 +719,7 @@ p{
 	transition: .15s cubic-bezier(0.43, 0.49, 0.51, 0.68);
 }
 
+
 .navbar-nav>li{
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -1067,6 +1068,18 @@ p{
 	box-shadow: 0px 5px 10px 0px rgba(0, 7, 40, 0.1);
 	background-color: var(--primary-color);
 	color: #fff;
+}
+.color{
+	font-size: 16px;
+	font-weight: 500;
+	color: #fff;
+	position: relative;
+	font-family: 'Poppins', sans-serif;
+	-webkit-transition: .15s cubic-bezier(0.43, 0.49, 0.51, 0.68);
+	transition: .15s cubic-bezier(0.43, 0.49, 0.51, 0.68);
+}
+.navbar.sticky-nav .color a{
+	color: #000!important;
 }
 
 

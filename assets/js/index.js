@@ -5,11 +5,11 @@ function translate(lng, tagAttr){
     translate.process();
     if(lng == 'en'){
       $("#enTranslator").css('color', '#f4623a');
-      $("#amTranslator").css('color', '#212529');
+      $("#amTranslator").css('color', '#fff');
     } 
     if(lng == 'am'){
       $("#amTranslator").css('color', '#f4623a');
-      $("#enTranslator").css('color', '#212529');
+      $("#enTranslator").css('color', '#fff');
     }
 }
 $(document).ready(function(){

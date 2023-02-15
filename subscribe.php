@@ -11,12 +11,7 @@
         $mail = new PHPMailer(true);
         
 
-        $message = "<table style='width: 100%;border-collapse: collapse;text-align: left;border-radius: 10px 10px 10px 0;overflow: hidden;'>
-                       <tr>
-                           <td width='20%'>Subscriber Email</td>
-                           <td width='80%'>".$_POST['email']."</td>
-                       </tr>
-                   </table>";
+        $message = "New Subscriber Email: ".$_POST['email'];
        
         
         try {

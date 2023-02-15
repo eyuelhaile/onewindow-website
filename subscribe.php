@@ -25,14 +25,14 @@
 	        $mail->SetLanguage("en");
 	        $mail->SMTPAuth   	= true; // enabled SMTP authentication
 	        $mail->SMTPSecure 	= "ssl";  // prefix for secure protocol to connect to the server
-	        $mail->Host       	= "mail.ethiofarmapp.com";      // SMTP server
+	        $mail->Host       	= "mail.onewindowpt.com";      // SMTP server
 	        $mail->Port       	= 465;                   // SMTP port to connect
-	        $mail->Username   	= "crm@ethiofarmapp.com";  
-	        $mail->Password   	= "eyu091332el";            
-	        $mail->From     	= "crm@ethiofarmapp.com";
-	        $mail->FromName 	= "Binget Wallet Transact";
+	        $mail->Username   	= "info@onewindowpt.com";  
+	        $mail->Password   	= "p9P1kJ3M:Ej*v0";            
+	        $mail->From     	= "info@onewindowpt.com";
+	        $mail->FromName 	= "One Window";
 	        $mail->isHTML(true);
-	        $mail->Subject    	= "Binget Wallet Subscriber";
+	        $mail->Subject    	= "One Window Subscriber";
 	        $mail->Body    		= $message;
 	        $mail->AltBody    	= "Plain text message";
             $mail->AddAddress("eyuelhaile29@gmail.com");

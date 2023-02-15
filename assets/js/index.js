@@ -4,12 +4,12 @@ function translate(lng, tagAttr){
     translate.init(tagAttr, lng);
     translate.process();
     if(lng == 'en'){
-      $("#enTranslator").css('color', '#f4623a');
-      $("#amTranslator").css('color', '#fff');
+      $("#enTranslator").css('color', '#8B5E3C');
+      $("#amTranslator").css('color', '#000');
     } 
     if(lng == 'am'){
-      $("#amTranslator").css('color', '#f4623a');
-      $("#enTranslator").css('color', '#fff');
+      $("#amTranslator").css('color', '#8B5E3C');
+      $("#enTranslator").css('color', '#000');
     }
 }
 $(document).ready(function(){

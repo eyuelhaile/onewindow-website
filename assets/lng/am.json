@@ -53,7 +53,7 @@
     "overview_detail":"አጠቃላይ እይታ",
     "training_button2":"ስልጠና",
     "property_button2":"ይዞታ",
-    "sales_and_marketing2":"የሽያጭ እና ግብይት &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    "sales_and_marketing2":"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; የሽያጭ እና ግብይት &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
     "sales_and_marketing2_title":"የሽያጭ እና ግብይት",
     "sales_and_marketing2_msg":"ሽያጭ እና ግብይት የእያንዳንዱ ቢዝነስ ዋና ምሰሶዎች ናቸው። እነሱ በቅርብ የተሳሰሩ እና ገቢን (ትርፍ) ለማመንጨት ጠቃሚ ግብዐቶች ናቸው። ግብይት ስለ አንድ ምርት ስም እና ድርጅት ግንዛቤን ማሳደግ ሲሆን ሽያጮች ደንበኞቻቸውን ወደ ትክክለኛ ደንበኞች በመቀየር ወደ ትርፍ ይለውጣሉ። ስለሆነም የስልጠናው የሽያጭ እና የግብይት ክፍለ ጊዜ ሰልጣኞችን በሚከተሉት ጠቃሚ ርዕሰ ጉዳዮች ያሰለጥናል፤ እነዚህም ሽያጮችን ከማግኘት እስከ ጉዳዮችን መጨረስ ድረስ ያካትታል።",
     "sales_types1":"የምርት እውቀት",
@@ -80,7 +80,7 @@
     "personal_development2_msg":"በአዎንታዊ አስተሳሰብ ግንባታ ላይ የምናደርገው ኮርስ ሰልጣኞች በተጨባጭ ሁኔታ የተሻሉ ውሳኔዎችን እንዲወስኑ ይረዳቸዋል። ሰልጣኞቻችን በጥበብ እና በምክንያታዊነት እንዲመርጡ የሚያስችል ጤናማ የአስተሳሰብ ሂደትን ያነሳሳል።",
     "personal_development2_title":"የግል ልማት",
   
-    "property_marketing2":"የይዞታ ሽያጭ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
+    "property_marketing2":"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; የይዞታ ሽያጭ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;",
     "property_marketing2_title":"የይዞታ ግብይት ",
      "property_marketing2_msg":"በቂ ልምድ እና እውቀት ያላችዉን ሴልሶች በመተቀም እንዲሁም ድህረ-ገጻችንን በመጎብኘት ሰፋ ያለ የይዞታ አማራጮችን እናቀርባለን ",
      "property_type1":"የመኖሪያ ቪላዎች እና አፓርታማዎች",

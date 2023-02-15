@@ -28,7 +28,7 @@
 	        $mail->Host       	= "mail.onewindowpt.com";      // SMTP server
 	        $mail->Port       	= 465;                   // SMTP port to connect
 	        $mail->Username   	= "info@onewindowpt.com";  
-	        $mail->Password   	= "p9P1kJ3M:Ej*v0";            
+	        $mail->Password   	= "5I7f,aEJ+1v0";            
 	        $mail->From     	= "info@onewindowpt.com";
 	        $mail->FromName 	= "One Window";
 	        $mail->isHTML(true);

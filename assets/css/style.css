@@ -208,7 +208,7 @@ p{
 	font-family: 'Poppins', sans-serif;
 	border-color: #bdaefd;
 	border-width: 1px;
-	min-width: 180px;
+	min-width: 18px;
 	padding: .85em;
 	position: relative;
 }
@@ -1311,7 +1311,7 @@ p{
 }
 
 .btn-wrapper .btn{
-	margin-right: 18px;
+	margin-right: 1px;
 	margin-bottom: 15px;
 }
 
